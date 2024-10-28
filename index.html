@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/logo-STMIK-Jakarta-Stik.png">
+    <title>Kelas 2SI1R STMIK Jakarta STI&K</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo-STMIK-Jakarta-Stik.png">
+            <a href="https://youtube.com/@Franzzz_" target="_blank">2SI1R</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Jadwal Kuliah</a></li>
+            <li><a href="#about">Informasi</a></li>
+            <li><a href="#server">Server</a></li>
+            <li><a href="#portfolio">Gallery</a></li>
+            <li><a href="#feedback">Anggota</a></li>
+        </ul>
+        <a href="http://wa.me/6281282373565"><button>Hubungi Kami</button></a>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+    
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="assets/foto.jpeg" class="d-block w-100 c-img" alt="Slide 1">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="mt-5 fs-3 text-uppercase">Welcome Di Kelas 2SI1R</p>
+              <p class="display-1 fw-bolder text-capitalize">Foto Kelasan</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="assets/bukber.jpeg" class="d-block w-100 c-img" alt="Slide 2">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Momen Sekelas Pada Bukber</p>
+              <p class="display-1 fw-bolder text-capitalize">Bukber 2024</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="assets/minecraft1.jpeg" class="d-block w-100 c-img" alt="Slide 3">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Mabar Berempat Minecraft</p>
+              <p class="display-1 fw-bolder text-capitalize">Minecraft</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="assets/ml.jpg" class="d-block w-100 c-img" alt="Slide 4">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Mabar Berlima ML</p>
+              <p class="display-1 fw-bolder text-capitalize">Mobile Legends</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="assets/ramadan1.jpeg" class="d-block w-100 c-img" alt="Slide 5">
+            <div class="carousel-caption top-0 mt-4">
+              <p class="text-uppercase fs-3 mt-5">Aktivitas Dibulan Ramadan</p>
+              <p class="display-1 fw-bolder text-capitalize">Ramadan 2024</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Selamat Datang Di Website 2SI1R</h5>
+            <h3>Website Ini Dibuat Dari Tahun 2024 Oleh<span> Mahasiswa STMIK Jakarta STI&K </span></h3>
+            <p>
+                Mahasiswa Yang Mempunyai Rasa Persahabatan Yang Tinggi, Membantu Dalam Hal Dunia Percodingan Untuk Menyelesaikan Tugas, Mempunyai Server Minecraft Untuk 
+                Bermain Bersama, Dan Juga Sering Mengadakan Mabar ML.
+            </p>
+            <a href="https://jak-stik.ac.id/"><button>Daftar Segera</button></a>
+        </div>
+        <div class="right">
+            <img src="assets/IMG_20231025_175858.jpg">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>2SI1R</h5>
+        <h3>Jadwal Kuliah</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Selasa</h4>
+                <p>
+                    1. Jam 08.30 - 11.30 Wib Sistem Informasi Manajemen Dosen Susi Widayati Ruang 113
+                    <P>2. Jam 12.30 - 15.30 Wib Sistem Informasi Akuntansi Dosen Edi Pranoto 113</P>
+                    <p>3. Jam 15.30 - 17.30 Wib Ilmu Budaya Dasar Dosen Alam Ruang 113</p>
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Rabu</h4>
+                <p>
+                    1. Jam 07.30 - 09.30 Wib Pemomgraman 2 Dosen Diyah Ruri Irawati Ruang 114
+                    <p>2. Jam 09.30 - 11.30 Wib Pendidikan Pancasila Dosen Marti Riastuti Ruang 232</p>
+                    <p>3. Jam 12.30 - 15.30 Wib Organisasi dan Arsitektur Komputer Dosen Fitri Sjafrina Ruang 114</p>
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>Kamis Lab</h4>
+                <p>
+                  1. Jam 11.30 - 13.30 Wib Praktikum Lab Delphi Lab 2
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Jum'at</h4>
+                <p>
+                    1. Jam 09.30 - 11.30 Wib Pengantar Manajemen Umum Dosen Soegijanto Ruang 114
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/IMG_20240309_162403.jpg">
+        </div>
+        <div class="right">
+            <h5>2SI1R</h5>
+            <h3>Pusat Informasi</h3>
+            <p>
+                 Link Google Drive Untuk Menaruh Tugas 
+                 Komputer Dan Masyarakat Pak Rozi :
+                 <a href="https://drive.google.com/drive/folders/1Dwxoyv-w8XNUtEl-AUIpHCEcJxf9ai-u">https://drive.google.
+                    com/drive/folders
+                    /1Dwxoyv-w8XNUtEl-AUIpHCEcJxf9ai-u</a>
+                    </p>
+                    <p>Link Google Drive Untuk Menaruh Tugas Statiska Dasar Pak Febri :
+                    <a href="https://drive.google.com/drive/folders/1FFOwHWXiRlP1XqEldv8tmUigbYeDN3VO">https://drive.google.
+                        com/drive/folders
+                        /1FFOwHWXiRlP1XqEldv8
+                        tmUigbYeDN3VO</a>
+                 </p>
+                 <p>UANG KAS JANGAN LUPA DIBAYAR!</p>
+                 <p><a href="https://kelasvirtual.jakstik.ac.id/">https://kelasvirtual.jakstik.ac.id/</p></a>
+                 <p>Pw : Mhsjakstik-23</p>
+                    <p>User : NPM</p>
+            </p>
+            <p>
+        </div>
+    </div>
+
+    <div class="server" id="server">
+        <div class="header">
+            <div class="info">
+                <h5>2SI1R</h5>
+                <h3>Server</h3>
+            </div>
+            <a href="https://aternos.org/server/#goog_rewarded"><button><i class='bx bx-cube-alt'></i> Link Server Minecraft</button></a>
+        </div>
+
+        <div class="server-items">
+            <div class="item">
+                <img src="assets/minecraft1.jpeg">
+                <div class="info">
+                    <h4>Mabar Berempat</h4>
+                    <a href="#">View in Server<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/minecraft2.jpeg">
+                <div class="info">
+                    <h4>Menjelajah Kampung Halaman</h4>
+                    <a href="#">View in Server<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sa-mp-023.png">
+                <div class="info">
+                    <h4>Mancing Bersama Surya Di Gta State Side Roleplay</h4>
+                    <a href="#">View in Server<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sa-mp-026.png">
+                <div class="info">
+                    <h4>Touring Dan Offroad Bertiga Di UIF</h4>
+                    <a href="#">View in Server<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sa-mp-060.png">
+                <div class="info">
+                    <h4>Tulisan Digerbang Pintu Rumah Surya</h4>
+                    <a href="#">View in Server<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>2SI1R</h5>
+                <h3>Gallery</h3>
+            </div>
+            <a href="https://www.instagram.com/"><button><i class='bx bxl-instagram'></i> Visit My Instagram</button></a>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/IMG_20240309_161126.jpg">
+                <div class="info">
+                    <h4>Foto Kelasan</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/bukber.jpeg">
+                <div class="info">
+                    <h4>Bukber 2024</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/ramadan2.jpeg">
+                <div class="info">
+                    <h4>Aktivitas Di Bulan Ramadan</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="400">
+                    <source src="assets/VID-20240327-WA0013.mp4">
+                </video>
+                <div class="info">
+                    <h4>Belajar Ngaji Bersama Achmad Dailami</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <video controls width="400">
+                    <source src="assets/VID-20240328-WA0004.mp4">
+                </video>
+                <div class="info">
+                    <h4>Kajian Ramadan Ba'da Maghrib Di Masjid</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/makan.jpg">
+                <div class="info">
+                    <h4>Makan Di Warteg</h4>
+                    <a href="#">View in Gallery<i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="feedback" id="feedback">
+        <h5>2SI1R</h5>
+        <h3>Anggota</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Jangan Takut Hitam, Karena Kopi Hitam Masih Banyak Peminatnya
+                </p>
+                <div class="user">
+                    <img src="assets/IMG-20240306-WA0002.jpg">
+                    <div class="info">
+                        <h5>Achmad Dailami</h5>
+                        <p>10423031</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Aku Tidak Menyukai Cewek, Dan Aku Suka Gay Aku Lebih Memilih Yang Ganteng
+                </p>
+                <div class="user">
+                    <img src="assets/IMG_20231209_145544.jpg">
+                    <div class="info">
+                        <h5>Ahmad Fiqih</h5>
+                        <p>10423026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "-
+                </p>
+                <div class="user">
+                    <img src="assets/atifah.jpeg">
+                    <div class="info">
+                        <h5>Atifah khairunnisa</h5>
+                        <p>10423003</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "-
+                </p>
+                <div class="user">
+                    <img src="IMG_20231209_145544.jpg">
+                    <div class="info">
+                        <h5>Fadiya Rahmania</h5>
+                        <p>10423012</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Gak Ada Kata-kata, Adanya Kondom Sutra
+                </p>
+                <div class="user">
+                    <img src="assets/igo.jpeg">
+                    <div class="info">
+                        <h5>Igo Ilham</h5>
+                        <p>10423014</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item 2">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Sebentar
+                </p>
+                <div class="user">
+                    <img src="assets/kucing.jpeg">
+                    <div class="info">
+                        <h5>Imanuel Yehezkiel Sulasmono</h5>
+                        <p>10423024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "-
+                </p>
+                <div class="user">
+                    <img src="IMG_20231209_145616.jpg">
+                    <div class="info">
+                        <h5>Indah Faradilla</h5>
+                        <p>10423006</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "-
+                </p>
+                <div class="user">
+                    <img src="assets/risa.jpeg">
+                    <div class="info">
+                        <h5>Indah Karunia Tarisa</h5>
+                        <p>10423017</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Gak tau
+                </p>
+                <div class="user">
+                    <img src="assets/saka.jpeg">
+                    <div class="info">
+                        <h5>Muhammad Saka Abi Pratama</h5>
+                        <p>10423028</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Perut Kenyang, Alhamdulilah
+                </p>
+                <div class="user">
+                    <img src="assets/surya.jpeg">
+                    <div class="info">
+                        <h5>Muhammad Surya Saputra</h5>
+                        <p>10423032</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Enjoy Your Life And Love Your Moms
+                </p>
+                <div class="user">
+                    <img src="assets/IMG_20231209_145600.jpg">
+                    <div class="info">
+                        <h5>Muhammad Zafran Nurzaqif</h5>
+                        <p>10423040</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/logo-STMIK-Jakarta-Stik.png">
+                <a>Kelas 2SI1R</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jadwal Kuliah</a></li>
+                <li><a href="#">Informasi</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Anggota</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com/?locale=id_ID"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/?lang=id"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/login/in"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made With ❤️ By Anak-Anak 2SI1R
+            </p>
+            <div class="links">
+                <a href="https://en.wikipedia.org/wiki/Privacy_policy">Privacy Policy</a>
+                <a href="https://en.wikipedia.org/wiki/Terms_of_service">Terms of Service</a>
+                <a href="https://en.wikipedia.org/wiki/Copyright">Copyright</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
